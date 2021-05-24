@@ -1,0 +1,78 @@
+body {
+  color: #000000;
+  font-family: helvetica;
+  font-size: 24px;
+  text-align: justify;
+  margin: 0 auto;
+}
+
+.container {
+  background-color: #FDF2CF;
+  color: black;
+  position: relative;
+  height: 200px;
+  padding-top: 75px;
+  box-sizing: border-box;
+}
+
+.container p {
+  margin-top: 10px;
+  padding: 5px;
+  line-height: 1;
+  hyphens: auto;
+  width: 75cr;
+  }
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  margin-right: 20px;
+}
+
+button {
+  height: 60px;
+  justify-content: right;
+  outline: none;
+  font-famiy: sans-serif;
+  position: relative;
+  padding: 7px;
+  width: 100px;
+  left: 100px;
+  border: none;
+  background-color: #fff;
+  border: 2px solid #1b1b1b;
+  color: #1b1b1b;
+  transition: 500ms ease-in;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+button i {
+  margin-left: 3px;
+}
+
+button:hover {
+  color: #fff;
+  background-color: #1b1b1b;
+}
+
+.container:first-child {
+  height: 30vh !important;
+}
+
+@media screen and (max-width: 565px) {
+  .container p {
+    font-size: 17px;
+  }
+  div:first-child {
+    height: 2vh;
+  }
+}
+
+@media screen and (min-width: 565px) {
+  body {
+    text-align: center;
+  }
+}
