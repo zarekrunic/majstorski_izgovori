@@ -49,17 +49,9 @@ button {
   justify-content: center;
 }
 
-button i {
-  margin-left: 3px;
-}
-
 button:hover {
   color: #fff;
   background-color: #1b1b1b;
-}
-
-.container:first-child {
-  height: 30vh !important;
 }
 
 @media screen and (max-width: 565px) {
