@@ -10,6 +10,8 @@ let izgovori = ["Ispraviće se kad se osuši.",
   "kada se okreči u belo, neće se videti",
   "čini ti se, oće oko da vara",
   "ko ti je radio ovo?!",
+  "to ćemo silikonom",
+  "Majstore moze pivo, rakija? Moze.",
   "imam ja čoveka za to, vrhunski majstor"];
 
 function izgovor() {
